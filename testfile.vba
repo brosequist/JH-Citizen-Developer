@@ -7,4 +7,7 @@ Sub SendToDistributionList(EmailList() As String, EmailSubject As String)
         .SendMail Recipients:=EmailList, Subject:=EmailSubject
     End With
 
+'I'm adding this comment
+'I'm also adding this comment
+
 End Sub
