@@ -8,5 +8,6 @@ Sub SendToDistributionList(EmailList() As String, EmailSubject As String)
     End With
 
 'I'm adding this comment
+'I'm also adding this comment
 
 End Sub
