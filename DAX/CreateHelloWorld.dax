@@ -1,0 +1,1 @@
+World = DATATABLE("Message", STRING, {{"Hello!"}} )
