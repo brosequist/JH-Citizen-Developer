@@ -36,12 +36,14 @@ Function StoreVerticalListToArray(StartCell As Range) As String()
         ActiveCell.Offset(1, 0).Activate
     Next
     
-    Dim msgString As String
+
 
     'Loop to print array results for testing if necessary
-    'For i = 0 To (ListRowCount - 1)
-    '    msgString = ListArray(i) & vbCr
-    '    MsgBox msgString
+    
+    'Dim msgString As String
+    '   For i = 0 To (ListRowCount - 1)
+    '   msgString = ListArray(i) & vbCr
+    '   MsgBox msgString
     'Next i
     
     StoreVerticalListToArray = ListArray()
