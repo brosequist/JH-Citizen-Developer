@@ -1,4 +1,4 @@
-Sub TestArrayCollector()
+Sub DistroListExampleMain()
   
   Dim Result() As String
   
